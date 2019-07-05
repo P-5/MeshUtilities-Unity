@@ -17,7 +17,9 @@ void ProjectionMesh()
 	Outputs
 		
 		The function creates a decal and parents it to the transform provided. Can be used for sprays/splatters.
+		
 		The decal geometry is taken from the mesh provided (although it is modified to be as small as possible).
+		
 		The decal material is mapped procedurally, so orientation varies (i.e. the decal doesn't always have the same rotation).
 
 void PunctureMesh()
@@ -53,7 +55,9 @@ void SplitMesh()
 	Outputs
 		
 		The function splits the provided mesh. Only the top half (as defined by the plane provided) is returned.
+		
 		In order to split a mesh into two, first copy the object, and then call the function twice.
+		
 		Once with the place normal facing up, and once with it facing down.
 
 void SharpenEdges()
